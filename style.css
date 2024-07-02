@@ -1,0 +1,49 @@
+body {
+	margin: 0;	/* Отступ снаружи*/
+}
+
+a { color: #2196F3; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.topbar {
+	background: #ccc;
+}
+
+.topbar p,
+.midbar p,
+.midbar h1,
+.midbar h3 {
+	margin: 0.5em 0;
+}
+
+.logo h1 {
+	color: red;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.topbar .container,
+.midbar .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav.mainmenu {
+	background: #2196F3;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+nav.mainmenu a {
+	color: #fff;
+}
+
+nav.mainmenu .container {
+	display: flex;
+	justify-content: space-between;
+}
